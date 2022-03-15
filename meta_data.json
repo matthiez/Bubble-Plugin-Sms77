@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "mobile",
+        "1": "ecommerce",
+        "2": "customer support",
+        "3": "social network"
+    },
+    "description": "Send SMS:\n- Up to 1520 characters\n- Set custom caller ID up to 11 alphanumeric or 16 numeric characters\n- Set custom label for analytics\n- Set custom foreign ID returned in callbacks\n- Enable performance tracking\n- Enable debug mode\n- Set custom time to live\n- Send as flash message\n\n\nText-To-Voice messages:\n- Up to 10000 characters\n- Set custom caller ID (after verification)\n- Enable debug mode\n\n\n- Home Location Register lookups\n- Mobile Number Portability lookups\n- Caller name lookups",
+    "image": "//s3.amazonaws.com/appforest_uf/f1628660703550x815620463976098000/256x256.png",
+    "license": "open_source",
+    "link": "https://www.sms77.io",
+    "name": "Sms77",
+    "plugin_instructions": "All you need to get started is an API key from Sms77. Register now for free and receive some free credits!"
+}

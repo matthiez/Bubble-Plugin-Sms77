@@ -1,0 +1,77 @@
+{
+    "category": "plugins",
+    "display": "Lookup MNP",
+    "fields": {
+        "ABR": {
+            "caption": "Number",
+            "doc": "The requested mobile number.",
+            "editor": "DynamicValue",
+            "name": "number",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "ABS": {
+            "caption": "Success?",
+            "name": "success",
+            "rank": 0,
+            "value": "boolean"
+        },
+        "ABT": {
+            "caption": "Code",
+            "name": "code",
+            "rank": 1,
+            "value": "number"
+        },
+        "ABU": {
+            "caption": "Country",
+            "name": "mnp_country",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABV": {
+            "caption": "Number",
+            "name": "mnp_number",
+            "rank": 3,
+            "value": "text"
+        },
+        "ABW": {
+            "caption": "International Formatted",
+            "name": "mnp_international_formatted",
+            "rank": 4,
+            "value": "text"
+        },
+        "ABX": {
+            "caption": "National Format",
+            "name": "mnp_national_format",
+            "rank": 5,
+            "value": "text"
+        },
+        "ABY": {
+            "caption": "Network",
+            "name": "mnp_network",
+            "rank": 6,
+            "value": "text"
+        },
+        "ABZ": {
+            "caption": "MCC / MNC",
+            "name": "mnp_mccmnc",
+            "rank": 7,
+            "value": "text"
+        },
+        "ABa": {
+            "caption": "Is Ported?",
+            "name": "mnp_isPorted",
+            "rank": 8,
+            "value": "boolean"
+        },
+        "ABb": {
+            "caption": "Price",
+            "name": "price",
+            "rank": 9,
+            "value": "number"
+        }
+    },
+    "type": "server_side"
+}

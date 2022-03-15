@@ -1,0 +1,146 @@
+{
+    "category": "plugins",
+    "display": "Send SMS",
+    "fields": {
+        "AAK": {
+            "caption": "From",
+            "doc": "Sender number - may contain a maximum of 11 alphanumeric or 16 numeric characters.",
+            "editor": "DynamicValue",
+            "name": "from",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "Text",
+            "doc": "Up to 1520 characters - If more than 160 characters are used, the text is distributed over several messages, each SMS is calculated individually.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "text",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "To",
+            "doc": "Recipient number – possible are numbers and address book entries (groups and contacts). Multiple recipients can be specified separated by commas.",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "to",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "Debug",
+            "doc": "If activated no SMS will be sent or calculated.",
+            "editor": "DynamicValue",
+            "name": "debug",
+            "optional": true,
+            "options": "0,1",
+            "rank": 3,
+            "value": "boolean"
+        },
+        "AAO": {
+            "caption": "Delay",
+            "doc": "Specify a custom point of time for time-delayed SMS.",
+            "editor": "DynamicValue",
+            "name": "delay",
+            "optional": true,
+            "rank": 4,
+            "value": "date"
+        },
+        "AAP": {
+            "caption": "No Reload Lock",
+            "doc": "Switch off reload lock. This lock prevents the sending of the same SMS (text, type and recipient alike) within 180 seconds.",
+            "editor": "DynamicValue",
+            "name": "no_reload",
+            "optional": true,
+            "rank": 5,
+            "value": "boolean"
+        },
+        "AAQ": {
+            "caption": "Flash",
+            "doc": "Send as Flash SMS. These are displayed directly in the receiver’s display. Flash SMS do not show sender names, except on some older phone models.",
+            "editor": "DynamicValue",
+            "name": "flash",
+            "optional": true,
+            "rank": 6,
+            "value": "boolean"
+        },
+        "AAR": {
+            "caption": "Time To Live",
+            "doc": "Specifies the validity period of the SMS in minutes.",
+            "editor": "DynamicValue",
+            "name": "ttl",
+            "optional": true,
+            "rank": 7,
+            "value": "number"
+        },
+        "AAS": {
+            "caption": "Label",
+            "doc": "You can optionally set a separate label for each SMS so that you can assign it to your statistics. Max. 100 chars, allowed characters: a-z, A-Z, 0-9, .-_@.",
+            "editor": "DynamicValue",
+            "name": "label",
+            "optional": true,
+            "rank": 8,
+            "value": "text"
+        },
+        "AAT": {
+            "caption": "Performance Tracking",
+            "doc": "Enable Performance Tracking for URLs found in the message text.",
+            "editor": "DynamicValue",
+            "name": "performance_tracking",
+            "optional": true,
+            "rank": 9,
+            "value": "boolean"
+        },
+        "AAU": {
+            "caption": "Foreign ID",
+            "doc": "\tProvide your own data for this message. You will get the foreign_id returned in DLR callbacks etc. Max. 64 chars, allowed characters: a-z, A-Z, 0-9, .-_@.",
+            "editor": "DynamicValue",
+            "name": "foreign_id",
+            "optional": true,
+            "rank": 10,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAV": {
+            "caption": "Success",
+            "name": "success",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAW": {
+            "caption": "Total Price",
+            "name": "total_price",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAX": {
+            "caption": "Balance",
+            "name": "balance",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAY": {
+            "caption": "Debug",
+            "name": "debug",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAZ": {
+            "caption": "SMS Type",
+            "name": "sms_type",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAa": {
+            "caption": "Message IDs",
+            "is_list": true,
+            "name": "message_ids",
+            "rank": 5,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}

@@ -1,0 +1,84 @@
+{
+    "category": "plugins",
+    "display": "Send Voice",
+    "fields": {
+        "AAe": {
+            "caption": "XML",
+            "doc": "Specifies whether the text variable is a plain text to be read, or an XML format.",
+            "editor": "DynamicValue",
+            "name": "xml",
+            "optional": true,
+            "rank": 3,
+            "value": "boolean"
+        },
+        "AAf": {
+            "caption": "From",
+            "doc": "Caller ID. Please use only verified sender IDs, one of your virtual inbound numbers or one of our shared virtual numbers.",
+            "editor": "DynamicValue",
+            "name": "from",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAg": {
+            "caption": "To",
+            "doc": "Recipient number Allowed are numbers and address entries (contacts only). Currently just one recipient per call is possible.",
+            "editor": "DynamicValue",
+            "name": "to",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAh": {
+            "caption": "Text",
+            "doc": "Text message to be read or XML data. Max 10,000 characters.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "text",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAi": {
+            "caption": "Debug",
+            "doc": "If activated no SMS will be sent or calculated.",
+            "editor": "DynamicValue",
+            "name": "debug",
+            "optional": true,
+            "rank": 4,
+            "value": "boolean"
+        }
+    },
+    "return_value": {
+        "AAk": {
+            "caption": "Success",
+            "name": "success",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAl": {
+            "caption": "Total Price",
+            "name": "total_price",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAm": {
+            "caption": "Balance",
+            "name": "balance",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAn": {
+            "caption": "Debug",
+            "name": "debug",
+            "rank": 3,
+            "value": "boolean"
+        },
+        "AAo": {
+            "caption": "message_ids",
+            "is_list": true,
+            "name": "message_ids",
+            "rank": 4,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}

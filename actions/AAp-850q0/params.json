@@ -1,0 +1,167 @@
+{
+    "category": "plugins",
+    "display": "Lookup HLR",
+    "fields": {
+        "AAq": {
+            "caption": "Number",
+            "doc": "The number to query. The format is almost arbitrary – our gateway automatically formats the number correctly.",
+            "editor": "DynamicValue",
+            "name": "number",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAr": {
+            "caption": "Status Message",
+            "name": "status_message",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAs": {
+            "caption": "Lookup Outcome",
+            "name": "lookup_outcome",
+            "rank": 1,
+            "value": "boolean"
+        },
+        "AAt": {
+            "caption": "Lookup Outcome Message",
+            "name": "lookup_outcome_message",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAu": {
+            "caption": "International Format Number",
+            "name": "international_format_number",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAv": {
+            "caption": "International Formatted",
+            "name": "international_formatted",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAw": {
+            "caption": "National Format Number",
+            "name": "national_format_number",
+            "rank": 5,
+            "value": "text"
+        },
+        "AAx": {
+            "caption": "Country Code",
+            "name": "country_code",
+            "rank": 6,
+            "value": "text"
+        },
+        "AAy": {
+            "caption": "Country Code ISO3",
+            "name": "country_code_iso3",
+            "rank": 7,
+            "value": "text"
+        },
+        "AAz": {
+            "caption": "Country Name",
+            "name": "country_name",
+            "rank": 8,
+            "value": "text"
+        },
+        "ABA": {
+            "caption": "Country Prefix",
+            "name": "country_prefix",
+            "rank": 9,
+            "value": "text"
+        },
+        "ABB": {
+            "caption": "Current Carrier Network Code",
+            "name": "current_carrier_network_code",
+            "rank": 10,
+            "value": "text"
+        },
+        "ABC": {
+            "caption": "Current Carrier Name",
+            "name": "current_carrier_name",
+            "rank": 11,
+            "value": "text"
+        },
+        "ABD": {
+            "caption": "Current Carrier Country",
+            "name": "current_carrier_country",
+            "rank": 12,
+            "value": "text"
+        },
+        "ABE": {
+            "caption": "Current Carrier Network Type",
+            "name": "current_carrier_network_type",
+            "rank": 13,
+            "value": "text"
+        },
+        "ABF": {
+            "caption": "Original Carrier Network Code",
+            "name": "original_carrier_network_code",
+            "rank": 14,
+            "value": "text"
+        },
+        "ABG": {
+            "caption": "Original Carrier Name",
+            "name": "original_carrier_name",
+            "rank": 15,
+            "value": "text"
+        },
+        "ABH": {
+            "caption": "Original Carrier Country",
+            "name": "original_carrier_country",
+            "rank": 16,
+            "value": "text"
+        },
+        "ABI": {
+            "caption": "Original Carrier Network Type",
+            "name": "original_carrier_network_type",
+            "rank": 17,
+            "value": "text"
+        },
+        "ABJ": {
+            "caption": "Valid Number",
+            "name": "valid_number",
+            "rank": 18,
+            "value": "text"
+        },
+        "ABK": {
+            "caption": "Reachable",
+            "name": "reachable",
+            "rank": 19,
+            "value": "text"
+        },
+        "ABL": {
+            "caption": "Ported",
+            "name": "ported",
+            "rank": 20,
+            "value": "text"
+        },
+        "ABM": {
+            "caption": "Roaming",
+            "name": "roaming",
+            "rank": 21,
+            "value": "text"
+        },
+        "ABN": {
+            "caption": "Status",
+            "name": "status",
+            "rank": 22,
+            "value": "boolean"
+        },
+        "ABO": {
+            "caption": "GSM Code",
+            "name": "gsm_code",
+            "rank": 23,
+            "value": "text"
+        },
+        "ABP": {
+            "caption": "GSM Message",
+            "name": "gsm_message",
+            "rank": 24,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}
